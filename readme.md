@@ -1,6 +1,6 @@
 # Offical Code Implementation for EndoGSLAM
 
-> EndoGLSAM: Real-Time Dense Reconstruction and Tracking in Endoscopic Surgeries using Gaussian Splatting.
+> EndoGLSAM: Real-Time Dense Reconstruction and Tracking in Endoscopic Surgeries using Gaussian Splatting.\
 > Kailing Wang*, Chen Yang*, Yuehao Wang, Sikuang Li, Yan Wang, Qi Dou, Xiaokang Yang, Wei Shen†
 
 
@@ -10,7 +10,7 @@
 
 
 ## 🏗️ Todo
-- [x] Release reconstruction results for comparison
+- [x] Release reconstruction results for **comparison**
 - [x] Release preprocessed dataset
 - [x] Release code
 - [x] Release paper
