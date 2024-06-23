@@ -1,0 +1,10 @@
+dataset_name: 'c3vd'
+camera_params:
+  image_height: 540 
+  image_width: 675 
+  fx: 401.1595
+  fy: 400.9425
+  cx: 334.143
+  cy: 273.8665
+  png_depth_scale: 2.55
+  crop_edge: 0
