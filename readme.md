@@ -24,7 +24,6 @@ You can install them following the instructions below.
 conda create -n endogslam python=3.10 # recommended
 conda activate endogslam
 pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu118
-# conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia # alternatively
 pip install -r requirements.txt
 ```
 
@@ -65,6 +64,7 @@ python scripts/main.py configs/c3vd/c3vd_base.py
 ```
 
 To evaluate on a single scene:
+
 ```bash 
 python scripts/calc_metrics.py --gt data/C3VD/sigmoid_t3_a --render experiments/C3VD_base/sigmoid_t3_a --test_single
 ```
