@@ -8,6 +8,7 @@
 <a href="https://arxiv.org/abs/2403.15124"> <img alt="Paper" src="https://img.shields.io/badge/Arxiv-Paper-red?logo=arxiv&logoColor=red"> </a>
 <a href="https://loping151.github.io/endogslam"> <img alt="Project Page" src="https://img.shields.io/badge/Project-Page-green?logo=pagekit&logoColor=white"> </a>
 
+### To make the comparison easier, we provide the tracking and reconstruction results of baselines.
 
 ## 🏗️ Todo
 - [x] Release reconstruction results for **comparison**
