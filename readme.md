@@ -10,8 +10,10 @@
 
 ### To make the comparison easier, we provide the tracking and reconstruction results of baselines.
 
+NOTE: Compressed file crash reported. Looking into it.
+
 ## 🏗️ Todo
-- [x] Release reconstruction results for **comparison**
+- [ ] Release reconstruction results for **comparison**
 - [x] Release preprocessed dataset
 - [x] Release code
 - [x] Release paper
