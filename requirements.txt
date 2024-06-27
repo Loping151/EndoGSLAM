@@ -1,5 +1,6 @@
 tqdm==4.65.0
-Pillow
+numpy==1.21.5
+Pillow==9.2.0
 opencv-python==4.9.0
 imageio
 matplotlib==3.5.2
