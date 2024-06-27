@@ -10,10 +10,8 @@
 
 ### To make the comparison easier, we provide the tracking and reconstruction results of baselines.
 
-NOTE: Compressed file crash reported. Looking into it.
-
 ## 🏗️ Todo
-- [ ] Release reconstruction results for **comparison**
+- [x] Release reconstruction results for **comparison**
 - [x] Release preprocessed dataset
 - [x] Release code
 - [x] Release paper
@@ -26,6 +24,7 @@ You can install them following the instructions below.
 ```bash
 conda create -n endogslam python=3.10 # recommended
 conda activate endogslam
+# torch and cuda version according to your env and device
 pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
@@ -35,9 +34,9 @@ Latest version is recommended for all the packages unless specified, but make su
 Tested machines: Ubuntu22.04+RTX4090, Ubuntu22.04+RTX2080Ti, Windows10+RTX2080.
 
 ## ⚓ Preparation
-We use the [C3VD](https://durrlab.github.io/C3VD/) dataset. You can use the scripts in `data/prepeocess_c3vd` to preprocess the dataset. We also provide the preprocessed dataset: [Google Drive](https://drive.google.com/drive/folders/1wT4cILcbf4TUlWlmK_wJPiIrZ2AqZ43W?usp=drive_link) or [My Site](https://download.loping151.com/files/C3VD_EndoGSLAM.zip).
+We use the [C3VD](https://durrlab.github.io/C3VD/) dataset. You can use the scripts in `data/prepeocess_c3vd` to preprocess the dataset. We also provide the preprocessed dataset: [Google Drive](https://drive.google.com/drive/folders/1wT4cILcbf4TUlWlmK_wJPiIrZ2AqZ43W?usp=drive_link) or [My Site](https://download.loping151.com/files/C3VD_EndoGSLAM.tar.gz).
 
-The reconstruction results for comparison is also available: [Google Drive](https://drive.google.com/drive/folders/1wT4cILcbf4TUlWlmK_wJPiIrZ2AqZ43W?usp=drive_link) or [My Site](https://download.loping151.com/files/EndoGSLAM_recon.zip).
+The reconstruction results for comparison is also available: [Google Drive](https://drive.google.com/drive/folders/1wT4cILcbf4TUlWlmK_wJPiIrZ2AqZ43W?usp=drive_link) or [My Site](https://download.loping151.com/files/EndoGSLAM_recon.tar.gz).
 
 After you get prepared, the data structure should be like this:
 
