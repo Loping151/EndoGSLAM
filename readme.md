@@ -34,9 +34,9 @@ Latest version is recommended for all the packages unless specified, but make su
 Tested machines: Ubuntu22.04+RTX4090, Ubuntu22.04+RTX2080Ti, Windows10+RTX2080.
 
 ## ⚓ Preparation
-We use the [C3VD](https://durrlab.github.io/C3VD/) dataset. You can use the scripts in `data/prepeocess_c3vd` to preprocess the dataset. We also provide the preprocessed dataset: [Google Drive](https://drive.google.com/drive/folders/1wT4cILcbf4TUlWlmK_wJPiIrZ2AqZ43W?usp=drive_link) or [My Site](https://download.loping151.com/files/C3VD_EndoGSLAM.tar.gz).
+We use the [C3VD](https://durrlab.github.io/C3VD/) dataset. You can use the scripts in `data/prepeocess_c3vd` to preprocess the dataset. We also provide the preprocessed dataset: [Google Drive](https://drive.google.com/drive/folders/1wT4cILcbf4TUlWlmK_wJPiIrZ2AqZ43W?usp=drive_link) or [My Site](https://download.loping151.com/C3VD_EndoGSLAM.tar.gz).
 
-The reconstruction results for comparison is also available: [Google Drive](https://drive.google.com/drive/folders/1wT4cILcbf4TUlWlmK_wJPiIrZ2AqZ43W?usp=drive_link) or [My Site](https://download.loping151.com/files/EndoGSLAM_recon.tar.gz).
+The reconstruction results for comparison is also available: [Google Drive](https://drive.google.com/drive/folders/1wT4cILcbf4TUlWlmK_wJPiIrZ2AqZ43W?usp=drive_link) or [My Site](https://download.loping151.com/EndoGSLAM_recon.tar.gz).
 
 After you get prepared, the data structure should be like this:
 
